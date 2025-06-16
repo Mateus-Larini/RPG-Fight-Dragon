@@ -1,7 +1,35 @@
 body {
-    background-color: #0a0a23;
-  }
-  
+  background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWhxMms3amNoNmdoc2JwNDd1dmxnM2tpZzl6OTU3eGw2aWMwZHVtaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TRebCjNbc4dIA/giphy.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: background-image 1.5s ease;
+}
+
+body, #text, #stats, #monsterStats, button {
+  font-family: 'Press Start 2P';
+  font-size: 10px;
+}
+
+.town {
+  background-image: url('img/town.png');
+  transition: background-image 2s ease;
+}
+.store {
+  background-image: url('img/store.png');
+  transition: background-image 2s ease;
+
+}
+.cave {
+  background-image: url('img/cave.png');
+  transition: background-image 2s ease;
+
+}
+.fight {
+  background-image: url('img/dragon.jpg');
+  transition: background-image 2s ease;
+}
+
   #text {
     background-color: #0a0a23;
     color: #ffffff;
@@ -9,19 +37,20 @@ body {
   }
   
   #game {
-    max-width: 500px;
+    max-width: 900px;
     max-height: 400px;
-    background-color: #ffffff;
+    background-color: #13293D;
     color: #ffffff;
     margin: 30px auto 0px;
-    padding: 10px;
+    padding: 12px;
+    border-radius: 10px;
   }
   
   #controls,
   #stats {
     border: 1px solid #0a0a23;
     padding: 5px;
-    color: #0a0a23;
+    color: #ffffff;
   }
   
   #monsterStats {

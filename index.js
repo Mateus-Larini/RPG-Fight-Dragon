@@ -96,6 +96,8 @@ button2.onclick = goCave;
 button3.onclick = fightDragon;
 
 function update(location) {
+
+  document.body.className = location.name.replace(/\s+/g, '');
   monsterStats.style.display = "none";
   button1.innerText = location["button text"][0];
   button2.innerText = location["button text"][1];
